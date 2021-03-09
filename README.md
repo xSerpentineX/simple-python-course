@@ -11,7 +11,7 @@ The aim of this repository is to:
 This repository will eventually be made up of a series of Python-based wiki-pages, written by myself, detailing aspects of the language and how to use it. The more I work on this course, the more pages will exist. The greater goal of this course is to provide yet another source of media that can be easily digestable for those wishing to get into programming, Python or both.
 
 ---
-### Course Syllabus.
+### Course Syllabus (Note: Still incomplete, will be finished when not sleeping!).
 - Section A: The basics of Python.
 - Section B: Further basics.
 - Section C: PIP and modules.
