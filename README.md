@@ -1,21 +1,65 @@
 # Simple Python course.
 ---
-### What is the aim of this repository?
-The aim of this repository is to:
-- Provide an introduction to this course and its contents.
-- Provide a full syllabus of every topic that will eventually be covered by this course.
-- Provide links to every single course page in the wiki here in the `readme.md` as they're created.
+### What is this repository for?
+This repository will eventually have a wikipage filled with information on Python programming, ranging anywhere from easy stuff to advanced stuff. The repository's `readme.md` file will contain both information about the course, and the course's syllabus (which can be used to quickly navigate to each wikipage if needed).
 
 ---
-### What is this course?
-This repository will eventually be made up of a series of Python-based wiki-pages, written by myself, detailing aspects of the language and how to use it. The more I work on this course, the more pages will exist. The greater goal of this course is to provide yet another source of media that can be easily digestable for those wishing to get into programming, Python or both.
+### How to use the course syllabus effectively.
+This syllabus has a general format of:
+- Section *x* - A broad area of the course containing topics all linked by the theme *x*.
+  - *xN* - An individual topic within section *x*, with *N* being the topic number.
+    - *xN-n* - Where the content of each topic is found, with *n* being the "lesson" number.
+
+
+An general example of this format would be the following:
+- Section A: Particles.
+  - A1: Electrons.
+    - A1-01: What is an electron.
+    - A1-02: Charge, number density and an electron's charge (Q=ne).
+    - A1-03: Current.
+    
+It should be noted that you do not need to follow these sections in order to use this course as there should be something for everybody (once completed, that is). However, if you are new to Python, or programming as a whole, it is *highly* recomended that you complete Section A in order to get a good grasp of programming concepts and the language as a whole.
 
 ---
-### Course Syllabus.
-- Section A: The basics of Python.
-- Section B: Further basics.
-- Section C: PIP and modules.
-- Section D: Advanced Python.
+# Course syllabus.
+**Section A: The basics of Python.**
+- A1: Variables.
+- A2: Mathematics and operators.
+- A3: Selection.
+- A4: Iteration.
+- A5: Basic data structures.
+- A6: Functions.
+- A7: User input and file I/O.
+- A8: Additional standard methods.
+- A9: Comprehensions.
+
+**Section B: Object-Orientated programming and data structures.**
+- B1: Object-Orientated programming.
+- B2: Advanced data structures.
+
+**Section C: Modules.**
+- C1: Environments.
+- C2: The os module.
+- C3: The sys module.
+- C4: The ujson module.
+- C5: The tempfile module.
+- C6: The datetime module.
+- C7: The colorama module.
+- C8: The logging module.
+- C9: The matplotlib module.
+- C10: The scipy module.
+- C11: The String module.
+- C12: The re module.
+- C13: The requests module.
+- C14: The beautifulsoup module.
+- C15: The selenium module.
+- C16: The asyncio module.
+
+**Section D: Advanced concepts.**
+- D1: Metaclasses.
+- D2: Decorators.
+- D3: Static functions and class functions.
+
 ---
 ### Section A: The basics of Python.
 **A1: Variables.**
@@ -99,11 +143,18 @@ This repository will eventually be made up of a series of Python-based wiki-page
 - A8-05: `slice()`.
 - A8-06: `join()`.
 - A8-07: `replace()`.
-- A8-08: `type()`.
-- A8-09: `help()`.
+- A8-08: `any()` and `all()`.
+- A8-09: `type()`.
+- A8-10: `help()`.
+
+**A9: Comprehensions in Python.**
+- A9-01: List comprehensions.
+- A9-02: Set comprehensions.
+- A9-03: Dictionary comprehensions.
+- A9-04: Generator comprehensions. 
 
 ---
-### Section B: Higher basics.
+### Section B: Object-Orientated programming and data structures.
 **B1: Object-orientated programming.**
 - B1-01: Introduction to OOP.
 - B1-02: Classes in Python.
@@ -132,20 +183,14 @@ This repository will eventually be made up of a series of Python-based wiki-page
 - B2-16: Hashlib module: Hash tables.
 - B2-17: `map()` and `filter()`.
 
-**B3: Comprehensions in Python.**
-- B3-01: List comprehensions.
-- B3-02: Set comprehensions.
-- B3-03: Dictionary comprehensions.
-- B3-04: Generator comprehensions. 
-
 ---
-### Section C: PIP and modules.
+### Section C: Modules.
 **C1: Environments.**
 - C1-01: Introduction to environments.
 - C1-02: Creating an environment.
-- C1-O3: Using environments.
+- C1-03: Using environments.
 
-**C2: Basics of the os module.**
+**C2: The os module.**
 - C2-01: Current working directories.
 - C2-02: Getting the directory of a script being ran.
 - C2-02: Creating a directory.
@@ -156,26 +201,67 @@ This repository will eventually be made up of a series of Python-based wiki-page
 - C2-07: `os.error`.
 - C2-08: `os.popen` and `os.close`.
 
-**C3: Basics of the sys module.**
+**C3: The sys module.**
 - C3-01: Command-line arguments with `sys.argv`.
 - C3-02: Changing output of the terminal with `sys.displayhook`.
 - C3-03: Standard data streams with `sys.stdin`, `sys.stdout` and `sys.stderr`.
 - C3-04: Getting the Python interpreter version with `sys.version`.
 
-**C4: Basics of the datetime module.**
-- C4-01: Getting the current date.
-- C4-02: Creating datetime objects.
-- C4-03: Calculating dates with datetime.
+**C4: The ujson module.**
+- C4-01: Dumping with `.dumps()`.
+- C4-02: Loading with `.loads()`.
 
-**C5: Basics of the re module.**
-- C5-01: Regular expression metacharacters.
-- C5-02: Regular expression special sequences.
-- C5-03: Regular expression sets.
-- C5-04: Searching with `re.search()`.
-- C5-05: Searching with `re.findall()`.
-- C5-06: Splitting lists at matches with `re.split()`.
-- C5-07: Replacing matches with `re.sub()`.
-- C5-08: Match object methods.
+**C5: The tempfile module.**
+- C5-01: Using temporary files.
+- C5-02: Viewing where temporary files are stored.
 
-**C6: Basics of the String module.**
-- C6-01: Currently working on syllabus.
+**C6: The datetime module.**
+- C6-01: Getting the current date.
+- C6-02: Creating datetime objects.
+- C6-03: Calculating dates with datetime.
+
+**C7: The colorama module.**
+- C7-00: Quick note on `init()`.
+- C7-01: Changing fore-colour of text with `Fore`.
+- C7-02: Changing back-colour of text with `Back`.
+- C7-03: Changing brightness of text with `Style`.
+
+**C8: The logging module.**
+- C8-01: Logging levels.
+- C8-02: Log formatting.
+- C8-03: Logging into a file.
+- C8-04: Creating a logger with `.getLogger(__name__)`.
+- C8-05: File handlers.
+- C8-06: Including traceback information in a log.
+
+**Currently working on C9-C11.**
+
+**C11: The String module.**
+- C11-01: String constants.
+- C11-02: Templates and `.substitute()`.
+
+**C12: The re module.**
+- C12-01: Regular expression metacharacters.
+- C12-02: Regular expression special sequences.
+- C12-03: Regular expression sets.
+- C12-04: Searching with `re.search()`.
+- C12-05: Searching with `re.findall()`.
+- C12-06: Splitting lists at matches with `re.split()`.
+- C12-07: Replacing matches with `re.sub()`.
+- C12-08: Match object methods.
+
+**C13: The requests module.**
+- C13-01: `.get()` requests.
+- C13-02: `.head()` requests.
+- C13-03: `.delete()` requests.
+- C13-04: `.patch()` requests.
+- C13-05: `.post()` requests.
+- C13-06: `.put()` requests.
+- C13-07: `.request()` requests.
+
+**C14: The beautifulsoup module.**
+- C14-01: Introduction to how HTML tags work.
+- C14-02: BeautifulSoup objects.
+- C14-03: Searching HTML with `.find_all()`.
+- C14-04: Getting text from tags with `.get_text()`.
+- C14-05: Parsing through dynamic javascript.
