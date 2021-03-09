@@ -11,7 +11,7 @@ The aim of this repository is to:
 This repository will eventually be made up of a series of Python-based wiki-pages, written by myself, detailing aspects of the language and how to use it. The more I work on this course, the more pages will exist. The greater goal of this course is to provide yet another source of media that can be easily digestable for those wishing to get into programming, Python or both.
 
 ---
-### Course Syllabus (Note: Still incomplete, will be finished when not sleeping!).
+### Course Syllabus.
 - Section A: The basics of Python.
 - Section B: Further basics.
 - Section C: PIP and modules.
@@ -145,7 +145,7 @@ This repository will eventually be made up of a series of Python-based wiki-page
 - C1-02: Creating an environment.
 - C1-O3: Using environments.
 
-**C2: Basics of the OS module.**
+**C2: Basics of the os module.**
 - C2-01: Current working directories.
 - C2-02: Getting the directory of a script being ran.
 - C2-02: Creating a directory.
@@ -161,3 +161,21 @@ This repository will eventually be made up of a series of Python-based wiki-page
 - C3-02: Changing output of the terminal with `sys.displayhook`.
 - C3-03: Standard data streams with `sys.stdin`, `sys.stdout` and `sys.stderr`.
 - C3-04: Getting the Python interpreter version with `sys.version`.
+
+**C4: Basics of the datetime module.**
+- C4-01: Getting the current date.
+- C4-02: Creating datetime objects.
+- C4-03: Calculating dates with datetime.
+
+**C5: Basics of the re module.**
+- C5-01: Regular expression metacharacters.
+- C5-02: Regular expression special sequences.
+- C5-03: Regular expression sets.
+- C5-04: Searching with `re.search()`.
+- C5-05: Searching with `re.findall()`.
+- C5-06: Splitting lists at matches with `re.split()`.
+- C5-07: Replacing matches with `re.sub()`.
+- C5-08: Match object methods.
+
+**C6: Basics of the String module.**
+- C6-01: Currently working on syllabus.
