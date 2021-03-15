@@ -46,14 +46,14 @@ It should be noted that you do not need to follow these sections in order to use
 - C6: The datetime module.
 - C7: The colorama module.
 - C8: The logging module.
-- C9: The matplotlib module.
-- C10: The scipy module.
-- C11: The String module.
-- C12: The re module.
-- C13: The requests module.
-- C14: The beautifulsoup module.
-- C15: The selenium module.
-- C16: The asyncio module.
+- C9: The String module.
+- C10: The re module.
+- C11: The requests module.
+- C12: The beautifulsoup module.
+- C13: The selenium module.
+- C14: The asyncio module.
+- C15: The scipy module.
+- C16: The matplotlib module.
 
 **Section D: Advanced concepts.**
 - D1: Metaclasses.
@@ -234,34 +234,59 @@ It should be noted that you do not need to follow these sections in order to use
 - C8-05: File handlers.
 - C8-06: Including traceback information in a log.
 
-**Currently working on C9-C11.**
+**C9: The String module.**
+- C9-01: String constants.
+- C9-02: Templates and `.substitute()`.
 
-**C11: The String module.**
-- C11-01: String constants.
-- C11-02: Templates and `.substitute()`.
+**C10: The re module.**
+- C10-01: Regular expression metacharacters.
+- C10-02: Regular expression special sequences.
+- C10-03: Regular expression sets.
+- C10-04: Searching with `re.search()`.
+- C10-05: Searching with `re.findall()`.
+- C10-06: Splitting lists at matches with `re.split()`.
+- C10-07: Replacing matches with `re.sub()`.
+- C10-08: Match object methods.
 
-**C12: The re module.**
-- C12-01: Regular expression metacharacters.
-- C12-02: Regular expression special sequences.
-- C12-03: Regular expression sets.
-- C12-04: Searching with `re.search()`.
-- C12-05: Searching with `re.findall()`.
-- C12-06: Splitting lists at matches with `re.split()`.
-- C12-07: Replacing matches with `re.sub()`.
-- C12-08: Match object methods.
+**C11: The requests module.**
+- C11-01: `.get()` requests.
+- C11-02: `.head()` requests.
+- C11-03: `.delete()` requests.
+- C11-04: `.patch()` requests.
+- C11-05: `.post()` requests.
+- C11-06: `.put()` requests.
+- C11-07: `.request()` requests.
 
-**C13: The requests module.**
-- C13-01: `.get()` requests.
-- C13-02: `.head()` requests.
-- C13-03: `.delete()` requests.
-- C13-04: `.patch()` requests.
-- C13-05: `.post()` requests.
-- C13-06: `.put()` requests.
-- C13-07: `.request()` requests.
+**C12: The beautifulsoup module.**
+- C12-01: Introduction to how HTML tags work.
+- C12-02: BeautifulSoup objects.
+- C12-03: Searching HTML with `.find_all()`.
+- C12-04: Getting text from tags with `.get_text()`.
+- C12-05: Parsing through dynamic javascript.
 
-**C14: The beautifulsoup module.**
-- C14-01: Introduction to how HTML tags work.
-- C14-02: BeautifulSoup objects.
-- C14-03: Searching HTML with `.find_all()`.
-- C14-04: Getting text from tags with `.get_text()`.
-- C14-05: Parsing through dynamic javascript.
+**Currently working on C13-C15 details.**
+
+**C16: The matplotlib module.**
+- C16-01: Creating a line graph.
+- C16-02: Creating legends, titles and lables.
+- C16-03: Creating a bar chart.
+- C16-04: Creating a pie chart.
+- C16-05: Creating a histograph.
+- C16-06: Creating a scatter plot.
+- C16-07: Creating a stack plot.
+- C16-08: Creating a box plot (box and whisper plot).
+- C16-09: File handling (Reading data from various file types).
+- C16-10: Reading data via webscraping.
+- C16-11: Customizating graphs.
+- C16-12: Creating live graphs.
+- C16-13: Annotating graphs.
+- C16-14: Creating subplots.
+- C16-15: Creating graphs with shareX axis.
+- C16-16: Creating graphs with multi-Y axis.
+- C16-17: Creating basemaps.
+- C16-18: Creating three-dimensional scatter plots.
+- C16-19: Creating three-dimensional bar charts.
+
+---
+### Section D: Advanced concepts.
+**Currently working on D1-D3.**
