@@ -11,7 +11,7 @@ This syllabus has a general format of:
     - *xN-n* - Where the content of each topic is found, with *n* being the "lesson" number.
 
 
-An general example of this format would be the following:
+A general example of this format would be the following:
 - Section A: Particles.
   - A1: Electrons.
     - A1-01: What is an electron.
