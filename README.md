@@ -1,4 +1,4 @@
-# Simple Python course.
+# Simple Python course (WIP).
 ---
 ### What is this repository for?
 This repository will eventually have a wikipage filled with information on Python programming, ranging anywhere from easy stuff to advanced stuff. The repository's `readme.md` file will contain both information about the course, and the course's syllabus (which can be used to quickly navigate to each wikipage if needed).
